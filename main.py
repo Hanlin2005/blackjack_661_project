@@ -3,12 +3,12 @@ Master file for the blackjack agent.
 '''
 import argparse
 import torch
-# from train_agent import train_agent
-from split_train_agent import train_agent, save_model
-from modeling import model
-from DQNAgent import DQNAgent
-# from environment import BlackjackEnv
-from split_environment import BlackjackEnv
+# from training.train_agent import train_agent
+from training.split_train_agent import train_agent, save_model
+from evaluation.modeling import model
+from agents.DQNAgent import DQNAgent
+# from environment.environment import BlackjackEnv
+from environment.split_environment import BlackjackEnv
 import datetime
 
 def load_model(model_path, count_type="empty"):

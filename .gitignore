@@ -1,5 +1,40 @@
-__pycache__
-models/old_models
-graphs/count_reward_dict.pkl
-count_reward_dict.pkl
-checkpoints
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files
+data/
+
+# Model checkpoints (large binary files — regenerate by training)
+checkpoints/
+
+# Generated result outputs (regenerate by running evaluation scripts)
+results/graphs/
+results/figures/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+tempCodeRunnerFile.py
+
+# Grid search CSVs (regenerated outputs)
+grid_search_results_*.csv
+betting_grid_results_*.csv
