@@ -76,7 +76,7 @@ A separate `BettingRLAgent` (DQN) and supervised `BettingNN` learn to size bets 
 ## Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Hanlin2005/blackjack_661_project.git
 cd blackjack_661_project
 pip install -r requirements.txt
 ```
